@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Kobe Bryant Tribute</title>
+    </head>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Kobe Bryant</span>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Basketball <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="family.html">Family</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="post-basketball.html">Post-Basketball</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mamba_mentality.html">Mamba Mentality</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <body>
+      <div class="text">
+        <h1>In Memory of Kobe Bryant</h1>
+      </div>
+
+      <img src="https://ktla.com/wp-content/uploads/sites/4/2020/01/gettyimages-1164646804.jpg?quality=85&strip=all" alt="Photo of Kobe Bryant">
+
+      <div class="text">
+        <h2>Life After Basketball</h2>
+        <p>In a previous life, Kobe Bryant cared about specific hardware. He had spent 20 years in a Los Angeles Lakers jersey collecting five NBA championship trophies, two Finals MVPs and one-regular season MVP.  When he sat in a room of his production studio recently, though, Bryant turned his head toward something he considered more meaningful. He stared at the Oscar, Sports Emmy and Annie Award that he won for his short film, "Dear Basketball".</p>
+        <p>“They’re at the top for me,” Bryant said in a wide-ranging interview with USA TODAY Sports. “It’s not something that was expected. As a kid, you kind of have the goal of winning championships and all these sorts of things. Being in the industry that I'm in now? It wasn't something that was thought of me winning an Oscar.”</p>
+        <p>What was expected? Consider what Bryant experienced on his farewell tour during his final season with the Lakers in 2015-16. Teammates, team officials and opponents did not just shower Bryant with praise. Some of them also shared their misgivings.</p>
+        <p>“ ‘I don't know what you want to do when you retire,’ ” Bryant recited. “ ‘You’re going to go through a state of depression. You’re going to have an identity crisis.’ These are all things that were said to me because people were genuinely concerned.”</p>
+        <p>Nearly four years later, the 41-year-old Bryant seems just fine. He founded Granity Studios, a multimedia company that has produced an ESPN+ series that analyzes professional athletes’ performances (“Detail”) and a No. 1-ranked kids and family podcast that teaches life lessons through melodies and sports (“The Punies”). He partnered with director Glen Keane and Academy Award-winning composer John Williams to produce "Dear Basketball”, which was based on a poem he wrote to announce his retirement.</p>
+        <p>Bryant has overseen the publication of three sports fantasy children’s books and a fourth - “The Wizenard Series: Season One” - by Wesley King, hits bookshelves March 31.</p>
+        <p>Instead of displaying NBA-related memorabilia, Bryant’s workspace features  shelves of his published work, other biographies and fantasy novels. As author Ivy Claire said, “sometimes, I forget he’s Kobe Bryant. To me, he’s just a guy with a bunch of book ideas.”</p>
+      </div>
+
+      <div class="button">
+        <button id="more-info">Click here to read more about the life of Kobe Bryant</button>
+        <p id="info">Information sourced from <a href="https://www.usatoday.com/story/sports/nba/2020/01/23/kobe-bryant-life-after-nba-oscars/4521103002/">USA Today</a></p>
+        <script>
+          document.querySelector('#more-info').onclick = function() {
+            document.querySelector('#info').style.visibility = 'visible'
+            document.querySelector('#more-info').style.visibility = 'hidden'
+          }
+        </script>
+      </div>
+    </body>
+</html>

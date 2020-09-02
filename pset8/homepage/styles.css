@@ -1,0 +1,42 @@
+body {
+    background-color: purple;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+
+h2 {
+    padding: 30px;
+    color: #FDB927;
+}
+
+.button {
+    padding-top: 30px;
+    text-align: center;
+    height: 200px;
+}
+
+#info {
+    visibility: hidden;
+    color: black;
+}
+
+a {
+    color: white;
+    font-style: italic;
+}

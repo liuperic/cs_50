@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Kobe Bryant Tribute</title>
+    </head>
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Kobe Bryant</span>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Basketball <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="family.html">Family</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="post-basketball.html">Post-Basketball</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mamba_mentality.html">Mamba Mentality</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <body>
+      <div class="text">
+        <h1>In Memory of Kobe Bryant</h1>
+      </div>
+
+      <img src="https://ktla.com/wp-content/uploads/sites/4/2020/01/gettyimages-1164646804.jpg?quality=85&strip=all" alt="Photo of Kobe Bryant">
+
+      <div class="text">
+        <h2>Family Man</h2>
+        <p>It was December 2017, more than a year after Kobe Bryant had retired from basketball, and the Lakers great was expounding upon a fundamental truth of parenthood. Having spent much of his NBA career on the road, traveling from city to city, he talked about a new job, shuttling his daughters around Newport Coast.</p>
+        <p>“A lot of driving in a three-to-five mile radius,” he said. “Now, to have that, it’s absolutely wonderful. The time we spend in the car.”</p>
+        <p>Bryant’s life, which ended in a helicopter crash Sunday, might have seemed all big-time sports and celebrity from the outside, but there was something more basic at its core.</p>
+        <p>Not many families must deal with immense fame and overnight wealth. Not many have their laundry aired in public, a constant fodder for headlines. So the relationships with his parents and wife had good times and bad, enduring a sexual assault charge in 2003. There were rifts and reconciliations.</p>
+        <p>In recent years, Bryant transitioned to the less-sensational role of doting father, often seen in public with his four daughters, including 13-year-old Gianna, who also died in the accident. Only a few weeks ago, former teammate Robert Horry ran into them at a youth basketball tournament.</p>
+        <p>“Kobe was just a happy guy,” Horry said. “He was so excited to be there.” For all the glitz that swirled around Bryant, family was an essential part of his story.</p>
+        <p>Bryant began coaching her youth teams, installing the same fundamentals and triangle offense he had gleaned from his Lakers days playing for Jackson and the late Tex Winter. In 2017, he posted video of “Gigi” shooting a basketball, comparing her technique to that of WNBA star Diana Taurasi.</p>
+        <p>Father and daughter became a frequent sight on television, the cameras showing them courtside at pro and college games. As a youth coach, Bryant was known to be calm, never jumping up to yell or complain about calls.</p>
+        <p>“At that point you become so attached to the kids,” he said. “It’s been wonderful.”</p>
+      </div>
+
+      <div class="button">
+        <button id="more-info">Click here to read more about the life of Kobe Bryant</button>
+        <p id="info">Information sourced from <a href="https://www.latimes.com/sports/lakers/story/2020-01-28/kobe-bryant-devotion-family-became-paramount-basketball-career-ended">LA Times</a></p>
+        <script>
+          document.querySelector('#more-info').onclick = function() {
+            document.querySelector('#info').style.visibility = 'visible'
+            document.querySelector('#more-info').style.visibility = 'hidden'
+          }
+        </script>
+      </div>
+    </body>
+</html>
