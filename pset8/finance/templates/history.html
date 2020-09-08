@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Symbol</th>
+          <th>Shares</th>
+          <th>Price</th>
+          <th>Transacted</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for transaction in history %}
+        <tr>
+          <th scope="row">{{ transaction["symbol"] }}</th>
+          <td>{{ transaction["shares"] }}</td>
+          <td>{{ transaction["share_price"] | usd }}</td>
+          <td>{{ transaction["execution_time"] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <br>
+    <table class="table table-striped funds">
+      <thead>
+        <tr>
+          <th>Deposits</th>
+          <th>Withdrawls</th>
+          <th>Transacted</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for deposit in deposits %}
+        <tr>
+          <td>{{ deposit["deposit"] | usd }}</th>
+          <td></td>
+          <td>{{ deposit["time"] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+{% endblock %}
